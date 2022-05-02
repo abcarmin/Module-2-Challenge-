@@ -1,0 +1,50 @@
+   15  ls -al ~/.ssh
+   16  ssh-keygen -t rsa -b 4096 -C "abcarmim7@gmail.com"
+   17  eval "$(ssh-agent -s)"
+   18  ssh-add ~/.ssh/id_rsa
+   19  clip < ~/.ssh/id_rsa.pub
+   20  ssh -T git@github.com
+   21  exit
+   22  pip
+   23  python
+   24  python pip help
+   25  python
+   26  exit
+   27  conda activate dev
+   28  code .
+   29  code .
+   30  cd
+   31  cd ~/Desktop/SMU Bootcamp
+   32  conda deactivate
+   33  conda activate dev
+   34  code .
+   35  conda deactivate
+   36  exit
+   37  conda activate dev
+   38  code .
+   39  conda deactivate
+   40  exit
+   41  conda activate dev
+   42  code .
+   43  git status
+   44  git status
+   45  git add Starter_Code/loan_qualifier_app/app.py
+   46  git status
+   47  git add Starter_Code/loan_qualifier_app/qualifier/utils/fileio.py
+   48  git status
+   49  git commit -m "Updated qualifying loan function"
+   50  git status
+   51  git push
+   52  git config --list
+   53  git clone https://github.com/abcarmin/Module-2-Challenge-.git
+   54  git status
+   55  git remote add https://github.com/abcarmin/Module-2-Challenge-.git
+   56  git status
+   57  git status
+   58  git add Starter_Code/loan_qualifier_app/README.md
+   59  got status
+   60  git status
+   61  git commit -m "Updated Read Me File"
+   62  git status
+   63  git push
+   64  history 50 > terminal_history.txt
